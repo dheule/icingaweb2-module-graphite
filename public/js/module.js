@@ -162,7 +162,7 @@
     var parseUrlParam = /^([^=]+)=(.*)$/;
 
     function updateGraphSizes() {
-        $("div.images.monitored-object-detail-view img.graphiteImg").each(function() {
+        $("div.images.object-detail-view img.graphiteImg").each(function() {
             var e = $(this);
             var src = e.attr("data-actualimageurl");
 
